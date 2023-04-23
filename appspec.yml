@@ -4,6 +4,6 @@ files:
     destination: /var/www/html/
 hooks:
   BeforeInstall:
-    - location: SH/install_dp
+    - location: SH/install_dep
       timeout: 300
       runas: root
